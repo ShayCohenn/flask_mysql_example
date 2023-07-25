@@ -6,14 +6,23 @@ This is a simple web application built with Flask (Python web framework) and MyS
 
 1. **Clone the Repository**
 
-   ```bash
-    git clone https://github.com/ShayCohenn/flask_mysql_example.git
-    cd flask_mysql_example
+```bash
+git clone https://github.com/ShayCohenn/flask_mysql_example.git
+```
+```bash
+cd flask_mysql_example
+```
 ## Install Dependencies
 ### Make sure you have Python installed. Create a virtual environment and install the required packages:
-    python -m virtualenv env
-    env/script/activate
-    pip install -r requirements.txt
+```bash
+python -m virtualenv env
+```
+```
+env/script/activate
+```
+```
+pip install -r requirements.txt
+```
     
 ## Configure the MySQL Database
 ### Install and set up MySQL on your machine if you haven't already.
@@ -30,7 +39,9 @@ This is a simple web application built with Flask (Python web framework) and MyS
 ```
 ## Run the App
 Start the Flask development server:
-    python app.py
+```bash
+python app.py
+```
 
 # Endpoints
 The following endpoints are available in the app:
